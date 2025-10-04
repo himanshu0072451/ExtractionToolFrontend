@@ -18,20 +18,16 @@
 
 
 
-
-import React from "react";
-
-const Logo = ({ color }) => {
+const Logo = () => {
   return (
-    <div className="top h-[40px] w-[150px]">
-      <img
-        src={`${import.meta.env.BASE_URL}logo1.svg`}
-        alt="hello!"
-        className={`${color === "white" ? "invert" : ""} h-full w-full object-contain`}
-      />
-    </div>
+    <img
+      src="https://himanshu0072451.github.io/ExtractionToolFrontend/logo1.svg"
+      alt="LOGO!"
+      style={{ width: "150px", height: "40px" }}
+    />
   );
 };
 
 export default Logo;
+
 
