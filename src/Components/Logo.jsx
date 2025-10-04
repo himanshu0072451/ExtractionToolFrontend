@@ -22,7 +22,7 @@ const Logo = () => {
   return (
     <img
       src="https://himanshu0072451.github.io/ExtractionToolFrontend/logo1.svg"
-      alt="LOGO!"
+      alt="LOG!"
       style={{ width: "150px", height: "40px" }}
     />
   );
