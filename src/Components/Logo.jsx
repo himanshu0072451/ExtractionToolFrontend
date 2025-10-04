@@ -26,7 +26,7 @@ const Logo = ({ color }) => {
     <div className="top h-[40px] w-[150px]">
       <img
         src={`${import.meta.env.BASE_URL}logo1.svg`}
-        alt="LOGO!"
+        alt="hello!"
         className={`${color === "white" ? "invert" : ""} h-full w-full object-contain`}
       />
     </div>
